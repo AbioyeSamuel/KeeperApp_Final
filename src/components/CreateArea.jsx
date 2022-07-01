@@ -21,7 +21,7 @@ function CreateArea(props) {
     });
   }
 
-  function buttonClick(event) {
+  function submitNote(event) {
     props.onAdd(note);
     setNote({
       title: "",
@@ -52,7 +52,7 @@ function CreateArea(props) {
           rows={isExpanded ? 3 : 1}
         />
         <Zoom in={isExpanded}>
-          <Fab onClick={buttonClick}>
+          <Fab onClick={submitNote}>
             <AddIcon />
           </Fab>
         </Zoom>
