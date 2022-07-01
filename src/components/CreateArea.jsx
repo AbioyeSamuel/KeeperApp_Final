@@ -39,7 +39,7 @@ function CreateArea(props) {
       <form className="create-note">
         {isExpanded ? (
           <input
-            name="title"
+            name="title"      
             onChange={handleChange}
             value={note.title}
             placeholder="Title"
