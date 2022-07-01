@@ -21,7 +21,7 @@ function CreateArea(props) {
     });
   }
 
-  function submitNote(event) {
+  function buttonClick(event) {
     props.onAdd(note);
     setNote({
       title: "",
