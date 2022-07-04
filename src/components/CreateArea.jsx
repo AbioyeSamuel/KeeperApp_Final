@@ -29,7 +29,7 @@ function CreateArea(props) {
       content: ""
     });
 
-    //so that content doesn't disappear on run, we set to default
+    //To ensure that content doesn't disappear on run, we set to default
     event.preventDefault();
   }
   function expand() {
